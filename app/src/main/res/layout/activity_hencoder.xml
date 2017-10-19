@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3899ED"
+    tools:context=".HencoderActivity">
+
+    <com.gcrj.hencodertest.FireworksView
+        android:id="@+id/fireworks_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.gcrj.hencodertest.CircularTapeView
+            android:id="@+id/circular_tape_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.gcrj.hencodertest.FireworksView>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="0.0"
+        android:textColor="#B7F1FD"
+        android:textSize="20sp" />
+
+    <com.gcrj.hencodertest.FlipboardView
+        android:id="@+id/flipboard_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/tv_tv_flip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="flip"
+        android:textColor="@color/colorAccent" />
+
+</FrameLayout>
